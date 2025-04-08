@@ -25,8 +25,8 @@ SECRET_KEY = "django-insecure-i!8o0v_ypwq(*)bihz!ofv4jy5k6_bg-mkp#5#fm$r--yarc3g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# Allow all hosts
-ALLOWED_HOSTS = ['*']
+# Allow host access to Codespace URL and localhost
+ALLOWED_HOSTS = ['glowing-space-fortnight-pj99gxw45gx727r7w-8000.app.github.dev', 'localhost']
 
 
 # Application definition
